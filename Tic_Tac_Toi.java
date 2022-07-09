@@ -126,6 +126,7 @@ class Tic_Tac_Toi extends JFrame implements ActionListener {
         Tic_Tac_Toi t = new Tic_Tac_Toi();
         t.setDefaultCloseOperation(EXIT_ON_CLOSE);
         t.setSize(800, 800);
+        t.setIconImage(new ImageIcon("ttt_icon.png").getImage());
         t.setVisible(true);
         // t.setResizable(false);
         t.setLocationRelativeTo(null);
@@ -295,6 +296,7 @@ class GetNames extends JFrame implements ActionListener {
 
     GetNames() {
         super("TicTacToi - By:Hardip Muliyasiya");
+        setIconImage(new ImageIcon("ttt_icon.png").getImage());
         con = getContentPane();
         con.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 15));
 
